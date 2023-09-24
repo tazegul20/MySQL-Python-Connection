@@ -3,7 +3,7 @@ import mysql.connector as connection
 conn= connection.connect(
     host='localhost',
     user='root',
-    password='22102001',
+    password='****',#This is the password you set before you create your database so please don't forget it
     database='sys'
 )
 query="""select*from gdp_csv
